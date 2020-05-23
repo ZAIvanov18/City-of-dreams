@@ -1,0 +1,30 @@
+body
+ {
+    background-image: url("underwater.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-position-y: -300px;
+    
+ }
+.div_c
+{
+    padding: 50px 16px;
+    border-radius: 20px;
+    width:97%;
+    margin:auto;
+    margin-bottom:15px;
+}
+.div_c img
+{
+float:right;
+width:200px;
+height:auto;
+border-radius: 10px;
+margin-left:50px;
+}
+.div_c h1
+{
+  color:Red;
+}
