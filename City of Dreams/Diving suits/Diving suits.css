@@ -13,14 +13,16 @@ body
     width: 90%;
     margin: auto;
     overflow: hidden;
+   
     margin-top: 20px;
-    
-
   }
+
   
   .container ul{
     padding: 0px;
     margin: 0px;
+   
+    
   }
   
   
@@ -30,13 +32,13 @@ body
     width:1000px;
     height:1000px;
     background: black;
-    opacity:0.8;
     color:white;
     margin :20px 0px 20px 55px;
-    
     border:2px solid grey;
     box-sizing: border-box;
+    opacity:0.8;
   }
+
   
   .container ul li .bottom{
     width: 100%;
@@ -45,8 +47,8 @@ body
     background: #8593a8;    
     text-align: center;
     color:white;
-    font-size: 20px;
-   
+    
+    font-size: 20px
   }
   
   @media screen and (max-width:1250px){
@@ -55,9 +57,10 @@ body
         margin-left: 40px;
          
     }
-
+}
 .image
 {
-  width:500px;
-  height:500px;
+  width:450px;
+
 }
+
