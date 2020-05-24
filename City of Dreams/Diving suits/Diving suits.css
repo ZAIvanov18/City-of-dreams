@@ -38,7 +38,11 @@ body
     box-sizing: border-box;
     opacity:0.8;
   }
+  .image
+    {
+    width:450px;
 
+    }
   
   .container ul li .bottom{
     width: 100%;
@@ -58,9 +62,5 @@ body
          
     }
 }
-.image
-{
-  width:450px;
 
-}
 
