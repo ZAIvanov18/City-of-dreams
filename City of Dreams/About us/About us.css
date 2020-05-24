@@ -1,6 +1,6 @@
 body
  {
-    background-image: url("About  us1.jpg");
+    background-image: url("Abu.jpg");
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -25,5 +25,12 @@ margin-left:50px;
 }
 .div_c h1
 {
-  color:Red;
+  color:#053c96;
+  margin-left:50px;
+}
+.div_c h3
+{
+  margin-left:50px;
+  margin-top:20px;
+  width:100px;
 }

@@ -1,11 +1,12 @@
 body
  {
-    background-image: url("underwater.jpg");
+    background-image: url("nigg.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    background-position-y: -300px;
+
+    background-repeat: no-repeat;
     
  }
 .div_c
