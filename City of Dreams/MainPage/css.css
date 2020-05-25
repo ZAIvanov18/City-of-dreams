@@ -10,7 +10,7 @@
 }
 
 #box {
-    width: 100%;
+    width: 300px;
     height: 300px;
     padding: 20px;
     border-radius: 10px;
@@ -18,15 +18,15 @@
 
 #card {
     width: 80%;
-    box-sizing: 0px 0px 1px 1px #ccc;
+    box-sizing: 1px 1px 1px 1px #ccc;
     position: relative;
     margin: 0px auto;
 }
 
 #wrapper {
     width: 50%;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
