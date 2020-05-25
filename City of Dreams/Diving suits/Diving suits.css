@@ -1,66 +1,53 @@
-body
- {
+body {
     background-image: url("Abu.jpg");
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color: #464646;
-    
- }
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
 
-
-.container{
+.container {
     width: 90%;
     margin: auto;
     overflow: hidden;
-   
     margin-top: 20px;
-  }
-
-  
-  .container ul{
-    padding: 0px;
-    margin: 0px;
-   
-    
-  }
-  
-  
-  .container ul li{
-    float:left;
-    list-style: none;
-    width:1000px;
-    height:1000px;
-    background: black;
-    color:white;
-    margin :20px 0px 20px 55px;
-    border:2px solid grey;
-    box-sizing: border-box;
-    opacity:0.8;
-  }
-  .image
-    {
-    width:450px;
-
-    }
-  
-  .container ul li .bottom{
-    width: 100%;
-    height:50px;
-    line-height: 50px;
-    background: #8593a8;    
-    text-align: center;
-    color:white;
-    
-    font-size: 20px
-  }
-  
-  @media screen and (max-width:1250px){
-    .container ul li{
-        width:40%;
-        margin-left: 40px;
-         
-    }
 }
 
+.container ul {
+    padding: 0px;
+    margin: 0px;
+}
 
+.container ul li {
+    float: left;
+    list-style: none;
+    width: 1000px;
+    height: 1000px;
+    background: black;
+    color: white;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.image {
+    width: 450px;
+}
+
+.container ul li .bottom {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #8593a8;
+    text-align: center;
+    color: white;
+    font-size: 20px
+}
+
+@media screen and (max-width:1250px) {
+    .container ul li {
+        width: 40%;
+        margin-left: 40px;
+    }
+}
