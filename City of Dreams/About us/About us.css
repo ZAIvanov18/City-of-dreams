@@ -13,7 +13,7 @@ body
     border-radius: 20px;
     width:97%;
     margin:auto;
-    margin-bottom:15px;
+    margin-bottom:30px;
 }
 .div_c img
 {
@@ -25,12 +25,41 @@ margin-left:50px;
 }
 .div_c h1
 {
-  color:#053c96;
+  color:#1611f5;
   margin-left:50px;
+  margin-bottom:40px;
 }
 .div_c h3
 {
   margin-left:50px;
-  margin-top:20px;
+
   width:100px;
+}
+.div_c2
+{
+  padding: 50px 16px;
+  border-radius: 20px;
+   width:97%;
+  margin:auto;
+  margin-bottom:15px;
+  
+}
+.div_c2 h1
+{
+  color:#1611f5;
+  margin-left:50px;
+  text-align: right;
+}
+.div_c2 h3
+{
+  text-align: right;
+  margin-top:30px;
+}
+.div_c2 img
+{
+float:left;
+width:200px;
+height:auto;
+border-radius: 10px;
+margin-left:50px;
 }
