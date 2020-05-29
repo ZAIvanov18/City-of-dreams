@@ -1,6 +1,5 @@
 #wrapper {
-    padding: 0px;
-    margin: 0px;
+    padding: 50px 16px;
     box-sizing: border-box;
     font-size: 22px;
     overflow: hidden;
@@ -10,8 +9,7 @@
 }
 
 #box {
-    width: 300px;
-    height: 300px;
+    padding: 50px 16px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -33,13 +31,12 @@
 }
 
 .container {
-    position: relative;
+    position: center ;
     width: 50%;
 }
 
 .image {
     opacity: 1;
-    display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -226,7 +223,7 @@ a img {
 
 #content .content_instance img {
     width: 300px;
-    height: 177px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
