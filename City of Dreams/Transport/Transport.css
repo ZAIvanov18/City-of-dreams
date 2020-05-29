@@ -1,0 +1,65 @@
+body
+ {
+    background-image: url("Abu.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+    
+ }
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    
+
+  }
+  
+  .container ul{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  
+  .container ul li{
+    float:left;
+    list-style: none;
+    width:1000px;
+    height:1000px;
+    background: black;
+    opacity:0.8;
+    color:white;
+    margin :20px 0px 20px 55px;
+    
+    border:2px solid grey;
+    box-sizing: border-box;
+  }
+  
+  .container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: #8593a8;    
+    text-align: center;
+    color:white;
+    font-size: 20px;
+   
+  }
+ 
+  .image{
+      width: 800px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  @media screen and (max-width:1250px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    }
