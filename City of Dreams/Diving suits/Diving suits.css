@@ -10,10 +10,9 @@ body
 
 
 .container{
-    width: 90%;
     margin: auto;
     overflow: hidden;
-   
+    padding: 50px 16px;
     margin-top: 20px;
   }
 
@@ -29,8 +28,7 @@ body
   .container ul li{
     float:left;
     list-style: none;
-    width:1000px;
-    height:1000px;
+    padding: 50px 16px;
     background: black;
     color:white;
     margin :20px 0px 20px 55px;
@@ -41,12 +39,12 @@ body
   .image
     {
     width:450px;
-
+    height:auto;
+    border-radius: 10px;
     }
   
   .container ul li .bottom{
-    width: 100%;
-    height:50px;
+    padding: 50px 16px;
     line-height: 50px;
     background: #8593a8;    
     text-align: center;
@@ -54,13 +52,5 @@ body
     
     font-size: 20px
   }
-  
-  @media screen and (max-width:1250px){
-    .container ul li{
-        width:40%;
-        margin-left: 40px;
-         
-    }
-}
 
 
