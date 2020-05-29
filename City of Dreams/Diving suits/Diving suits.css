@@ -1,56 +1,46 @@
-body
- {
+body {
     background-image: url("Abu.jpg");
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color: #464646;
-    
- }
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
 
-
-.container{
+.container {
     margin: auto;
     overflow: hidden;
     padding: 50px 16px;
     margin-top: 20px;
-  }
+}
 
-  
-  .container ul{
+.container ul {
     padding: 0px;
     margin: 0px;
-   
-    
-  }
-  
-  
-  .container ul li{
-    float:left;
+}
+
+.container ul li {
+    float: left;
     list-style: none;
     padding: 50px 16px;
     background: black;
-    color:white;
-    margin :20px 0px 20px 55px;
-    border:2px solid grey;
+    color: white;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid grey;
     box-sizing: border-box;
-    opacity:0.8;
-  }
-  .image
-    {
-    width:450px;
-    height:auto;
+    opacity: 0.8;
+}
+
+.image {
+    width: 450px;
+    height: auto;
     border-radius: 10px;
-    }
-  
-  .container ul li .bottom{
+}
+
+.container ul li .bottom {
     padding: 50px 16px;
     line-height: 50px;
-    background: #8593a8;    
+    background: #8593a8;
     text-align: center;
-    color:white;
-    
+    color: white;
     font-size: 20px
-  }
-
-
+}
