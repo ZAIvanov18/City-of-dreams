@@ -1,45 +1,18 @@
-#wrapper {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-size: 22px;
-    overflow: hidden;
-    font-weight: bold;
-    background-color: #000000;
+#div_main
+{
+    background-color: black;
     opacity: 0.6;
-}
-
-#box {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#card {
-    width: 80%;
-    box-sizing: 1px 1px 1px 1px #ccc;
+    height:auto;
     position: relative;
-    margin: 0px auto;
+    max-width: 1000px;
+    padding:50px;
+    
+
 }
 
-#wrapper {
-    width: 50%;
-    margin-left: 500px;
-    margin-right: 400px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container {
-    position: relative;
-    width: 50%;
-}
 
 .image {
     opacity: 1;
-    display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -72,15 +45,6 @@
     width: 50%;
 }
 
-pedal dadah3 {
-    color: white;
-}
-
-div.fixed {
-    position: fixed;
-    width: 50%;
-    bottom: 10px;
-}
 
 body {
     background-image: url("nigg.jpg");
@@ -95,7 +59,6 @@ body {
     padding: 50px 16px;
     border-radius: 20px;
     width: 97%;
-    margin: auto;
     margin-bottom: 15px;
 }
 
@@ -107,11 +70,11 @@ body {
     margin-left: 50px;
 }
 
-p {
+.div_c p {
     text-align: left;
 }
 
-p {
+.div_c p{
     text-align: left;
 }
 
@@ -125,13 +88,7 @@ p {
     width: 742px;
 }
 
-#top {
-    display: block;
-    width: 642px;
-    height: 35px;
-    float: right;
-    clear: both;
-}
+
 
 #top img {
     padding-left: 15px;
@@ -226,7 +183,7 @@ a img {
 
 #content .content_instance img {
     width: 300px;
-    height: 177px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
