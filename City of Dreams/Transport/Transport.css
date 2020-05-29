@@ -33,6 +33,7 @@ body
     opacity:0.8;
     color:white;
     margin :20px 0px 20px 55px;
+    font: center;
     
     border:2px solid grey;
     box-sizing: border-box;
@@ -47,6 +48,8 @@ body
     color:white;
     font-size: 20px;
    
+
+   
   }
  
   .image{
@@ -56,10 +59,3 @@ body
       margin-left: auto;
       margin-right: auto;
   }
-
-  @media screen and (max-width:1250px){
-    .container ul li{
-        width:40%;
-        margin-left: 40px;
-         
-    }
