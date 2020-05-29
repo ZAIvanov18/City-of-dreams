@@ -1,15 +1,11 @@
-#div_main
-{
+#div_main {
     background-color: black;
     opacity: 0.6;
-    height:auto;
+    height: auto;
     position: relative;
     max-width: 1000px;
-    padding:50px;
-    
-
+    padding: 50px;
 }
-
 
 .image {
     opacity: 1;
@@ -45,7 +41,6 @@
     width: 50%;
 }
 
-
 body {
     background-image: url("nigg.jpg");
     background-position: center center;
@@ -74,7 +69,7 @@ body {
     text-align: left;
 }
 
-.div_c p{
+.div_c p {
     text-align: left;
 }
 
@@ -87,8 +82,6 @@ body {
     overflow: hidden;
     width: 742px;
 }
-
-
 
 #top img {
     padding-left: 15px;
